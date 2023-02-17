@@ -1,7 +1,7 @@
 //Connections
 const { describe } = require('node:test');
-const {sequelize} = require('../connections/db.js');
-const {Board, Cheese, User} = require('./index')
+const {sequelize} = require('./connections/db.js');
+const {Board, Cheese, User} = require('./index.js')
 
 //Test - Tbales Created
 describe('Board, Cheese, User models', () => {
